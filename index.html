@@ -1,69 +1,226 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
+
 <head>
+    <title>Sit On Chair</title>
     <meta charset="UTF-8">
-    <title>Sit on our chair</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,500,600,700" rel="stylesheet">
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="container container_header">
-            <div id="logo">SIT <span class="on">ON</span> CHAIR</div>
-                <ul class="menu">
-                    <li><a href="#">O FIRMIE</a>
-                        <ul>
-                            <li><a href="#">Aktualności</a></li>
-                            <li><a href="#">Nasz team</a></li>
-                            <li><a href="#">Historia</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">GALERIA</a></li>
-                    <li><a href="#">KONTAKT</a></li>
-                </ul>
+<header>
+    <div class="fixed-width">
+        <h1>Sit <span>On</span> Chair</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">O firmie</a>
+                    <div class="triangle"></div>
+                    <ul>
+                        <li><a href="#">Aktualności</a></li>
+                        <li><a href="#">Nasz team</a></li>
+                        <li><a href="#">Historia</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--- header koniec ---->
+<section id="slider">
+    <div class="fixed-width">
+        <div class="left-arrow">&lt;</div>
+        <article class="slide">
+            <div class="image-chair" id="blackChair"></div>
+            <div class="slider-content">
+                <h2>Sit <span>on</span> our <span>chair</span></h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="slider-button"><a href="#">Zobacz więcej</a></div>
+            </div>
+        </article>
+        <article class="slide">
+            <div class="image-chair" id="orangeChair"></div>
+            <div class="slider-content">
+                <h2>Sit <span>on</span> our <span>chair</span></h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="slider-button"><a href="#">Zobacz więcej</a></div>
+            </div>
+        </article>
+        <article class="slide">
+            <div class="image-chair" id="redChair"></div>
+            <div class="slider-content">
+                <h2>Sit <span>on</span> our <span>chair</span></h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="slider-button"><a href="#">Zobacz więcej</a></div>
+            </div>
+        </article>
+        <div class="right-arrow">&gt;</div>
+    </div>
+</section>
+<!--- slider koniec ---->
+<div class="clear">
+</div>
+<section id="gallery">
+    <div class="fixed-width">
+        <div class="gallery-container">
+            <div class="image-gallery">
+                <div class="opacity-gallery">
+                    <div class="bar-text">
+                        Chair CLAIR
+                    </div>
+                </div>
+            </div>
+            <div class="image-gallery">
+                <div class="opacity-gallery">
+                    <div class="bar-text">
+                        Chair MARGARITA
+                    </div>
+                </div>
+            </div>
+            <div class="text-gallery">
+                <div class="text-gallery-header">
+                    Finds all inputs
+                </div>
+                <div class="text-gallery-paragraph">
+                    <p>
+                        Danish brownie brownie dessert. Cake halvah chocolate bar soufflé candy candy canes. Gingerbread tart chupa chups cupcake sesame snaps oat cake jelly beans ice cream marzipan.
+                    </p>
+                    <p>
+                        Chupa chups cheesecake jelly tiramisu. Sugar plum halvah danish bear claw powder bonbon.
+                    </p>
+                </div>
+            </div>
         </div>
-    </header>
-
-        <section id="slider">
-            <div class="container slajdf">
-                <button class="one">&lt</button>
-
-                <div class="slajd">
-                    <div class="chair">
-
-                    </div>
-
-                    <div class="text">
-                    <p id="sit">SIT <span class="on">ON </span>OUR <span class="on">CHAIR</span></p>
-                    <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Amet culpa dolorem eaque error et itaque magnam magni officiis similique veniam.
-                        Blanditiis et odio quaerat soluta?</p>
-                    <button id="more">Zobacz więcej</button>
-                    </div>
-                </div>
-                <button class="one">&gt</button>
-
+    </div>
+</section>
+<!--- galeria koniec ---->
+<div class="clear">
+</div>
+<section id="price-list">
+    <div class="fixed-width">
+        <div class="price"> Cennik </div>
+        <div class="price-container">
+            <div class="out-circle">
             </div>
-        </section>
-
-        <section id="photo">
-            <div class="container portfolio">
-
-                <div class="hvrbox1">
-                    <img src="images/box1_img.jpg">
-                    <div class="clair">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ullam?</div>
-                </div>
-
+            <div class="price-header">
+                Basic Plan
             </div>
-        </section>
+            <div class="in-circle">
+                85<sup>99</sup>
+                <p>PLN/MSC
+                </p>
+            </div>
+            <ul class="list">
+                <li>Zakup towaru + dowóz</li>
+                <li>Serwis</li>
+            </ul>
+            <div class="price-button">
+                DOŁĄCZ
+            </div>
+        </div>
+        <div class="price-container" id="green-container">
+            <div class="out-circle" id="green-circle">
+            </div>
+            <div class="price-header" id="green-header">
+                Standard Plan
+            </div>
+            <div class="in-circle" id="green-in-circle">
+                95<sup>99</sup>
+                <p>PLN/MSC
+                </p>
+            </div>
+            <ul class="list" id="green-list">
+                <li>Zakup towaru + dowóz</li>
+                <li>Serwis</li>
+                <li>Gwarancja 5 lat</li>
+            </ul>
+            <div class="price-button" id="white-button">
+                DOŁĄCZ
+            </div>
+        </div>
+        <div class="price-container">
+            <div class="out-circle">
+            </div>
+            <div class="price-header">
+                Advance Plan
+            </div>
+            <div class="in-circle">
+                211<sup>00</sup>
+                <p>PLN/MSC
+                </p>
+            </div>
+            <ul class="list">
+                <li>Zakup towaru + dowóz</li>
+                <li>Serwis</li>
+                <li>Gwarancja 6 lat</li>
+                <li>Porady projektanta</li>
+            </ul>
+            <div class="price-button">
+                DOŁĄCZ
+            </div>
+        </div>
+    </div>
+</section>
+<!--  cennik - koniec -->
+<div class="clear"></div>
+<section id="contact-form">
+    <div class="fixed-width">
+        <div class="contact"> Kontakt </div>
+        <form>
+            <div class="left-side-form">
+                <input type="text" id="name" placeholder="Imię"></input><br>
+                <input type="text" id="mail" placeholder="email"></input><br>
+                <textarea rows="5" cols="30" id="info" placeholder="Wiadomość"></textarea>
+            </div>
+            <div class="right-side-form">
+                <div class="red-chair-image"></div>
+                <div class="checkbox">
+                    <input type="checkbox" id="c1" name="cc" />
+                    <label for="c1"><span></span><p>Zgadzam się na przetwarzanie danych osobowych<p></label>
 
-        <section id="price"></section>
-
-        <section id="form"></section>
-
-
-    <footer></footer>
+                </div>
+                <button type="submit" name="submit">Wyślij</button>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- koniec formularza-->
+<div class="clear"></div>
+<footer>
+    <section id="footer">
+        <div class="fixed-width">
+            <div class="copyright">
+                <p>
+                    Copyright 2018 | All Rights Reserved. - Sit On Chair
+                </p>
+            </div>
+            <div class="footer-right-side">
+                <div class="footer-image">
+                    <img src="../images/flickr.png" alt="flickr" />
+                    <img src="../images/vimeo.png" alt="vimeo" />
+                    <img src="../images/pinterest.png" alt="pinterest" />
+                    <img src="../images/twitter.png" alt="twitter" />
+                </div>
+                <div class="footer-text">
+                    <p>
+                        Sit <span>On</span> Chair
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Koniec stopki-->
+</footer>
 </body>
+
 </html>
